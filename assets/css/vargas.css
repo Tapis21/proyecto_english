@@ -1,0 +1,29 @@
+header
+{
+  background-color: red;
+}
+
+body
+{
+  background-color: aquamarine;
+}
+
+.container
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card
+{
+    border: 3px double maroon;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+}
+

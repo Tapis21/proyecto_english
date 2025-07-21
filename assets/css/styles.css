@@ -1,0 +1,113 @@
+/* Global variables for index page */
+:root {
+    --index-bg: #f8fafc;
+    --index-header-bg: #e3f2fd;
+    --index-header-color: #1565c0;
+    --index-nav-bg: #fff;
+    --index-nav-link: #1976d2;
+    --index-nav-link-hover: #0d47a1;
+    --index-main-bg: #fff;
+    --index-main-title: #1976d2;
+    --index-section-bg: #e3f2fd;
+    --index-section-title: #1565c0;
+    --index-border-radius: 10px;
+    --index-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    --index-padding: 24px;
+    --index-margin: 20px;
+    --index-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: var(--index-bg);
+    font-family: var(--index-font-family);
+    margin: 0;
+    color: #222;
+}
+
+header {
+    background: var(--index-header-bg);
+    color: var(--index-header-color);
+    padding: var(--index-padding);
+    border-bottom: 1px solid #b3e5fc;
+    box-shadow: var(--index-shadow);
+    border-radius: 0 0 var(--index-border-radius) var(--index-border-radius);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 12px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav {
+    background: var(--index-nav-bg);
+    border-radius: var(--index-border-radius);
+    display: inline-block;
+    padding: 8px 24px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+}
+
+nav a {
+    color: var(--index-nav-link);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background: var(--index-header-color);
+    color: #fff;
+}
+
+main {
+    background: var(--index-main-bg);
+    margin: var(--index-margin) auto;
+    max-width: 900px;
+    border-radius: var(--index-border-radius);
+    box-shadow: var(--index-shadow);
+    padding: var(--index-padding);
+}
+
+main h2 {
+    color: var(--index-main-title);
+    font-size: 28px;
+    margin-top: 0;
+}
+
+section {
+    background: var(--index-section-bg);
+    border-radius: var(--index-border-radius);
+    padding: 16px;
+    margin-top: var(--index-margin);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+}
+
+section h3 {
+    color: var(--index-section-title);
+    font-size: 22px;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.footer {
+    background: var(--index-header-bg);
+    color: var(--index-header-color);
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #b3e5fc;
+    font-size: 15px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+    z-index: 100;
+}

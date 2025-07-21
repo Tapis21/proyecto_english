@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyect English</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Project</h1>
+        <nav>
+            <a href="Martinez_trejo/Trejo.php">Christian</a>
+            <a href="kenya_ramirez/ramirez.php">Kenya</a>
+            <a href="vargas.php">Juan</a>
+            <a href="tut_jesus.php">Jesus</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Main Content</h2>
+        <p>This is the main content area where you can add your text, images, and other elements.</p>
+        <section>
+            <h3>Section Title</h3>
+            <p>Here is a section with additional information.</p>
+        </section>
+    </main>
+    <?php
+        include("assets/footer.html");
+    ?>
+</body>
+</html>

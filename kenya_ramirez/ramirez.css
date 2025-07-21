@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffeef8;
+    color: #333;
+}
+
+header {
+    background-color: #f8cde6;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px dotted #ff9fc9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #b60060;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #6a0052;
+}
+
+main {
+    padding: 20px;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.seccion {
+    background-color: #fff0f5;
+    border: 2px solid #f4b4d4;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.seccion h2 {
+    color: #d40072;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.seccion p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #fcd6eb;
+    color: #6a0052;
+    border-top: 3px dotted #ff9fc9;
+}
+/* Contenedor que usa Flexbox */
+.flex-recuadros {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: flex-start; /* Alinea arriba */
+    gap: 20px; /* Espacio entre los divs */
+    flex-wrap: wrap; /* Para que bajen si no caben en pantalla pequeña */
+    margin-top: 20px;
+}
+
+/* Cada recuadro (tarjetita) */
+.tarjeta {
+    background-color: #fff0f5;
+    border: 2px dashed #f4b4d4;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
