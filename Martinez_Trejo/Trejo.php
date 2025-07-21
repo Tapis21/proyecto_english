@@ -6,6 +6,15 @@
     <title>Trejo</title>
 </head>
 <body>
+    body {
+            background-image: url('images_Trejo/a/Pochis.jpg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed; /* Opcional: efecto parallax */
+            margin: 0;
+            font-family: Arial, sans-serif;
+             }
     <header>
         <h1>Christian Argenis Martinez Trejo</h1>
         <h1>Hy everyone, I´m Christian Argenis, and this is my section</h4>
