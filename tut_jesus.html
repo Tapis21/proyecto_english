@@ -1,4 +1,4 @@
-2<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -28,6 +28,7 @@
       color: var(--text-color);
       line-height: 1.6;
       padding: 0 1rem;
+      overflow-x: hidden;
     }
 
     header {
@@ -99,8 +100,19 @@
         max-height: 200px;
       }
     }
-  </style>
 
+    /* Animación flotante */
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0);
+        opacity: 0.9;
+      }
+      100% {
+        transform: translateY(-120vh);
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -111,7 +123,8 @@
     <section class="reveal">
       <h2>Introduction</h2>
       <p>Hello classmate and teacher<br>
-      I'm Tut Najera Jesus Aron<br>
+      My name is Jesus Aron<br>
+      Today is my presentation about the project "Coding my past, Designing my future".<br>
       I will talk about three important moments in my life</p>
       <img src="image_jesus/intro.jpg" alt="Introduction image">
     </section>
@@ -136,7 +149,7 @@
       <p>A big moment for me was starting university. I was happy and a little scared.<br>
       I also helped with a school event. I learned teamwork and responsibility.<br>
       I also made my first project in App Inventor. I was very proud of it.</p>
-      <img src="image_jesus/moments.png" alt="Key life events image">
+      <img src="image_jesus/moments.jpg" alt="Key life events image">
     </section>
   </main>
 
@@ -165,6 +178,26 @@
     window.addEventListener('scroll', animateOnScroll);
     window.addEventListener('load', animateOnScroll);
   </script>
+
+  <!-- JS: Animación de emojis flotantes personalizados -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const emojis = ["🏍️", "🚗", "🚙", "🛻", "🏎️", "🛵"]; // Carros, motos, vehículos
+      setInterval(() => {
+        const emoji = document.createElement("div");
+        emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        emoji.style.position = "fixed";
+        emoji.style.left = Math.random() * 100 + "vw";
+        emoji.style.top = "100vh";
+        emoji.style.fontSize = "22px";
+        emoji.style.opacity = "0.9";
+        emoji.style.zIndex = "10";
+        emoji.style.pointerEvents = "none";
+        emoji.style.animation = "floatUp 6s ease-in forwards";
+        document.body.appendChild(emoji);
+        setTimeout(() => emoji.remove(), 6000);
+      }, 800);
+    });
+  </script>
 </body>
 </html>
-
