@@ -1,16 +1,16 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Karen's Journey</title>
+<title>OSCAR'S OASIS</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     :root {
         --light-purple: #f8f3fd;
-        --medium-purple: #d6b9f3;
-        --dark-purple: #b48de3;
-        --text-color: #4b0082;
+        --medium-purple: #33ff9c;
+        --dark-purple: #33ffd4;
+        --text-color: #ff3d3d;
         --white: #ffffff;
     }
     * {margin: 0; padding: 0; box-sizing: border-box;}
@@ -76,15 +76,15 @@
 <body>
 <header>
     <div class="container">
-        <h1>Karen Abigail Kantún Gómez</h1>
-        <p>My Life Journey</p>
+        <h1>Ixtepan Marcial</h1>
+        <p>My Ordinary Life</p>
     </div>
 </header>
 <main class="container">
     <nav class="nav-menu">
-        <button class="nav-btn" data-section="childhood">Childhood</button>
-        <button class="nav-btn" data-section="events">Key Events</button>
-        <button class="nav-btn" data-section="hobbies">Hobbies</button>
+        <button class="nav-btn" data-section="childhood">Childhood OwO</button>
+        <button class="nav-btn" data-section="events">Key Events 7w7</button>
+        <button class="nav-btn" data-section="hobbies">Hobbies UwU</button>
         <button class="nav-btn" data-section="future">My Future</button>
     </nav>
 

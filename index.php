@@ -10,10 +10,12 @@
     <header>
         <h1>Welcome to the Project</h1>
         <nav>
-            <a href="Martinez_trejo/Trejo.php">Christian</a>
-            <a href="kenya_ramirez/ramirez.php">Kenya</a>
-            <a href="vargas.php">Juan</a>
+            <a href="vargas.php">Juan</a>            
+            <a href="kenya_ramirez/ramirez.php">Kenya</a>            
             <a href="tut_jesus.php">Jesus</a>
+            <a href="Martinez_trejo/Trejo.php">Christian</a>
+            <a href="Kantún Gómez/Kantún.php">Karen</a>
+            <a href="Oscar_Ixtepan/Ixtepan.php">Hanzel</a>  
         </nav>
     </header>
 
@@ -25,8 +27,5 @@
             <p>Here is a section with additional information.</p>
         </section>
     </main>
-    <?php
-        include("assets/footer.html");
-    ?>
 </body>
 </html>

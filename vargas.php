@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-LA">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +8,21 @@
 </head>
 <body>
     <header>
+        <h1>"Coding my past, designing my future"</h1>
         <h2>Vargas Guzmán Juan Antonio</h2>
         <h3>25 years old</h3>
         <h4>I´m from Mexico city</h4>
     </header>
     <main>
         <div class="container">
-            <div class="card" >
-                <div class="redirect-section">
-                    <ul>
-                        <li>My childhood</li>
-                        <li>My event keys</li>
-                        <li>Hobbies and activities</li>
-                        <li>Future</li>
-                    </ul>
-                </div>
+            <div class="theme">
+                <p>My childhood</p>
+                <p>My event keys</p>
+                <p>Hobbies and activities</p>
+                <p>Future</p>
             </div>
+        </div>
+        <div class="container">
             <div class="card">
                 <div class="info">
                     <h5>My childhood</h5>
@@ -37,27 +36,30 @@
             <div class="card">
                 <div class="info">
                     <h5>My Event Keys</h5>
-                    <p>I got my first TV</p>
-                    <p>I failled math class</p>
+                    <p>I got my first storages.</p>
+                    <p>I failled math class.</p>
                     <img src="" alt="">
                 </div>
             </div>
             <div class="card">
                 <div class="info">
                     <h5>Hobbies and activities</h5>
-                    <p>I liked paint and draw</p>
-                    <p>I used to write poetry</p>
-                    <p>I like playing random videogames</p>
+                    <p>I liked paint and draw.</p>
+                    <p>I used to write poetry.</p>
+                    <p>I like playing random videogames.</p>
                 </div>
             </div>
-            <div class="card">
-                <div class="info">
-                    <h5>My future</h5>
-                    <p>I will be an engineer</p>
-                    <p>I wish have 2 children in a future</p>
+                <div class="card">
+                    <div class="info">
+                        <h5>My future</h5>
+                        <p>I will be an engineer.</p>
+                        <p>I wish have 2 children in a future.</p>
+                    </div>
                 </div>
-            </div>
-        </div>   
-    </main>
-</body>
+            </div>   
+        </main>
+        <footer>
+            <p>&copy; Juan Antonio Vargas Guzmán</p>
+        </footer>
+    </body>
 </html>

@@ -13,44 +13,79 @@
     </header>
 
     <main>
-        <section class="contenido">
+        <div class="contenido">
            <div class="seccion">
-    <h2>꒰ My Childhood Memories ♡ ꒱</h2>
-</div>
-        <div class="seccion">
-            <p>My Cinderella dress.</p>
-        </div>
-
-        <div class="seccion">
-            <p>My kindergarten "graduation".</p>
-        </div>
-
-        <div class="seccion">
-            <p>When I turned ten...</p>
-        </div>
+                <h2>꒰ My Childhood Memories ♡ ꒱</h2>
+                <div class="tarjetas-contenedor">
+                    <div class="tarjeta">
+                        <img src="img/Cinderella dress.jpeg" alt="Cinderella Dress">
+                        <p>My Cinderella dress.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Kindergarten Graduation.jpeg" alt="Kindergarten Graduation">
+                        <p>My kindergarten "graduation".</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/When I turned ten.jpeg" alt="Turning Ten">
+                        <p>When I turned ten...</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="seccion">
                 <h2>Key Life Events</h2>
-                <p>One time in gym class, I fell while running and scraped my knee really bad. I wanted to cry, but I didn't. I was too embarrassed.</p>
-                <p>My first pet was a super cute puppy my brother adopted. I loved her so much and felt really happy to have a dog.</p>
-                <p>In elementary school, there was a scary rumor about a bomb at school. Everyone was crying, even my little brother, but I ignored him so I wouldn't get scared too.</p>
+                <div class="tarjetas-contenedor">
+                    <div class="tarjeta">
+                        <img src="3knee.jpg" alt="Injured knee">
+                        <p>Injured knee</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="8puppy.jpg" alt="First pet">
+                        <p>My first pet</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="1bomb.jpg" alt="Scary rumor">
+                        <p>Scary rumor</p>
+                    </div>
+                </div>
             </div>
 
             <div class="seccion">
                 <h2>Activities and Hobbies</h2>
-                <p>My biggest hobby is writing poetic prose. I love writing poetry... I find any little detail and turn it into a sentimental piece, especially about a person who is very special to me.</p>
-                <p>I really enjoy watching horror series and movies, though I also like romantic comedies.</p>
-                <p>I love spending time with my kitty.</p>
+                <div class="tarjetas-contenedor">
+                    <div class="tarjeta">
+                        <img src="7poetry.jpg" alt="Writing Poetry">
+                        <p>I love writing poetry and short stories.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="2watchtv.jpg" alt="Watching TV">
+                        <p>I enjoy watching horror and romantic shows.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="gatoykenini.jpg" alt="With my kitty">
+                        <p>I love spending time with my kitty.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="seccion">
                 <h2>My Future</h2>
-                <p>I'm going to finish my college degree and graduate.</p>
-                <p>I'm going to get a job after that.</p>
-                <p>One day, I'm going to buy a house.</p>
-                <p>I'm going to travel to many countries.</p>
-                <p>Maybe in the future, I'm going to get married and start a family.</p>
+                <div class="tarjetas-contenedor">
+                    <div class="tarjeta">
+                        <img src="4graduate.jpg" alt="Graduation">
+                        <p>I'm going to finish my college degree and graduate.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="5travel.jpg" alt="Get a job">
+                        <p>I'm going to travel.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="6married.jpg" alt="Family">
+                        <p>Maybe in the future, I'll get married and start a family.</p>
+                    </div>
+                </div>
             </div>
+
         </section>
     </main>
 

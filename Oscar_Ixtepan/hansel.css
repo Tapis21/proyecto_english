@@ -1,0 +1,11 @@
+:root
+
+{
+    --primarycolor: #b0f2c2
+}
+body{
+    background-color: var (primarycolor);
+    font-size:20px;
+    font-family:Pacífico;
+
+}

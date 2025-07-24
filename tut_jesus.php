@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coding my past, Designing my future</title>
   <link rel="stylesheet" href="assets/css/tut_jesus.css">
-  <script defer src="assets/js/animations.js"></script>
+  
 </head>
 <body>
   <header>
@@ -33,6 +33,7 @@
     <section class="reveal">
       <h2>Hobbies</h2>
       <p>Regarding my hobbies, I enjoy learning about technology.</p>
+      <p>I like to play video games and watch anime.</p>
       <img src="image_jesus/hobbies.jpg" alt="Hobbies image">
     </section>
 
@@ -41,12 +42,14 @@
       <p>A big moment for me was starting university. I was happy and a little scared.<br>
       I also helped with a school event. I learned teamwork and responsibility.<br>
       I also made my first project in App Inventor. I was very proud of it.</p>
-      <img src="moments.jpg" alt="Key life events image">
+      <img src="image_jesus/moments.jpg" alt="Key life events image">
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Jesus Aron - Coding my past</p>
   </footer>
+
+  <script defer src="assets/js/animations.js"></script>
 </body>
 </html>
