@@ -15,17 +15,52 @@
             <a href="tut_jesus.html">Jesus</a>
             <a href="Martinez_Trejo/Trejo.html">Christian</a>
             <a href="Kantún Gómez/Kantún.html">Karen</a>
-            <a href="Oscar_Ixtepan/Ixtepan.html">Hanzel</a>  
+            <a href="Oscar_Ixtepan/Ixtepan.html">Hansel</a>  
         </nav>
     </header>
 
     <main>
-        <h2>Main Content</h2>
+        <h2>Coding my past, design my future...</h2>
         <p>This is the main content area where you can add your text, images, and other elements.</p>
         <section>
             <h3>Section Title</h3>
             <p>Here is a section with additional information.</p>
         </section>
     </main>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Emojis con estética azul 💙❄️🔷
+        const emojis = ["💙", "❄️", "🌀", "🔷", "🔵", "🌊", "🧊", "🐬", "🌌"];
+        setInterval(() => {
+            const emoji = document.createElement("div");
+            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            emoji.style.position = "fixed";
+            emoji.style.left = Math.random() * 100 + "vw";
+            emoji.style.top = "100vh";
+            emoji.style.fontSize = "22px";
+            emoji.style.opacity = "0.9";
+            emoji.style.zIndex = "10";
+            emoji.style.pointerEvents = "none";
+            emoji.style.animation = "floatUp 6s ease-in forwards";
+            document.body.appendChild(emoji);
+            setTimeout(() => emoji.remove(), 6000);
+        }, 800); // cada 0.8 segundos
+    });
+</script>
+
+<style>
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+</style>
+
 </body>
 </html>

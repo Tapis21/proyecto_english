@@ -1,12 +1,11 @@
-*
-{
-  margin: 0;
-  padding: 0;
-}
-
 img
 {
+  height: 60px;
+}
 
+img:hover
+{
+  height: 100px;
 }
 
 header
@@ -53,11 +52,6 @@ body
     width: auto;
     padding: 10px;
     margin-top: 10px;
-}
-
-.card img
-{
-  
 }
 
 footer
